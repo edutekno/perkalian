@@ -19450,5 +19450,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Mouse.prototype.exps.X,
 	cr.plugins_.Mouse.prototype.exps.Y,
 	cr.system_object.prototype.cnds.Else,
-	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar
+	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
+	cr.plugins_.Mouse.prototype.cnds.IsOverObject,
+	cr.plugins_.Sprite.prototype.acts.SetScale
 ];};
